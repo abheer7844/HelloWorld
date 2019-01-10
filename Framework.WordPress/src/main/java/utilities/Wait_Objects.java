@@ -28,7 +28,6 @@ public class Wait_Objects extends DriverClass{
 	public static void explicit_Wait(By xp){
 		
 		WebDriverWait wait = new WebDriverWait(driver, 20);
-		WebElement ele = wait.until(ExpectedConditions.visibilityOfElementLocated(xp));
 		 
 	}
 

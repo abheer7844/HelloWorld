@@ -21,7 +21,12 @@ public class Tests {
 	public static String password = "";
 
 	
-  @Test(dataProvider="Sheet3")
+	@Test
+	public void testDemo() {
+		
+	}
+	
+  @Test(dataProvider="Sheet3", enabled = false)
   public void testing(String row, String user, String pass) throws Exception {
 	  	System.out.println("Test Inner Class");
 	   	Log.info("Test Start :");
